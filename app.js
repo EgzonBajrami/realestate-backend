@@ -11,7 +11,7 @@ const propertyRoutes = require('./routes/property.routes')
 
 var app = express();
 const cors = require('cors');
-
+//works
 app.use(cors());
 
 app.use(logger('dev'));
