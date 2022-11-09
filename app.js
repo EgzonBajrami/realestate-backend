@@ -12,7 +12,7 @@ const propertyRoutes = require('./routes/property.routes')
 var app = express();
 const cors = require('cors');
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'*', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
